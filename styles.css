@@ -1,0 +1,163 @@
+/* Reset beberapa gaya default */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Tampilan umum */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+/* ... Kode sebelumnya ... */
+
+/* Portofolio */
+.portofolio-item {
+    margin-top: 50px;
+    max-width: 800px; /* Menentukan lebar maksimum gambar */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.portofolio-item img {
+    width: 100%;
+    height: auto;
+    border: 0px solid #ddd;
+    border-radius: 0px;
+    object-fit: cover; /* Menghindari distorsi gambar */
+    aspect-ratio: 16/9; /* Membuat rasio aspek 4:3 */
+}
+.portofolio-item p {
+    font-weight: bold; /* Menambahkan ketebalan pada deskripsi */
+    margin-top: 10px;
+}
+
+/* ... Kode sebelumnya ... */
+
+/* Bagian Tentang */
+.about-content {
+    position: relative;
+    background: url('f2.png') center/cover no-repeat;
+    padding: 300px 0;
+   
+}
+
+.about-content h2, .about-content p {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f39c12;
+}
+
+/* Bagian */
+.section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Portofolio */
+.portofolio-item {
+    margin-top: 30px;
+}
+
+.portofolio-item img {
+    max-width: 100%;
+    height: auto;
+    border: 0px solid #;
+    border-radius: 0px;
+}
+/* ... Kode sebelumnya ... */
+
+/* Bagian Kontak */
+/* ... Kode sebelumnya ... */
+
+/* Bagian Kontak */
+.section#kontak {
+    background-color: black; /* Warna latar belakang */
+    padding: 50px 0;
+}
+
+.contact-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-image {
+    flex: 1;
+    text-align: center;
+}
+
+.contact-image img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+}
+
+.contact-text {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-text h2, .contact-text p {
+    color: white;
+}
+
+.contact-text a {
+    color: white;
+    text-decoration: none;
+    background-color: #333; /* Warna latar belakang untuk tautan email */
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: block;
+    margin-top: 10px;
+}
+
+/* ... Kode setelahnya ... */
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
